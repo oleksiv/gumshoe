@@ -1,6 +1,6 @@
 /*!
  * gumshoe v3.5.0: A simple, framework-agnostic scrollspy script.
- * (c) 2017 Chris Ferdinandi
+ * (c) 2018 Chris Ferdinandi
  * MIT License
  * http://github.com/cferdinandi/gumshoe
  */
@@ -192,7 +192,7 @@
 
 		// Calculate distances
 		docHeight = getDocumentHeight(); // The document
-		headerHeight = header ? ( getHeight(header) + getOffsetTop(header) ) : 0; // The fixed header
+		headerHeight = header ? ( getHeight(header) ) : 0; // The fixed header
 		forEach(navs, (function (nav) {
 			nav.distance = getOffsetTop(nav.target); // Each navigation target
 		}));

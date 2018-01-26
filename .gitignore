@@ -2,6 +2,7 @@
 node_modules
 test/results
 test/coverage
+.idea
 
 ## OS X
 .DS_Store
